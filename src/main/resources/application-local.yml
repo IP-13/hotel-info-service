@@ -1,0 +1,10 @@
+spring.application.name: hotel-info-service
+
+info.app.name: ${spring.application.name}
+
+server.port: 8083
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
